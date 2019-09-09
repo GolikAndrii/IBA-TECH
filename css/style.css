@@ -60,11 +60,11 @@ table {
   font-style: normal; }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   scroll-behavior: smooth; }
 
 *, *:before, *:after {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -520,7 +520,7 @@ a {
       .about-item__article-text > p {
         margin-top: 20px; }
       .about-item__article-text--bold {
-        font-weight: 500; }
+        font-weight: bold; }
   .about-item__image-box {
     display: inline-block;
     width: 100%;
@@ -1837,9 +1837,9 @@ a {
     -moz-background-size: auto 100%, auto 100%;
     -o-background-size: auto 100%, auto 100%;
     background-size: auto 100%, auto 100%;
-    background-position: -webkit-calc(100% + 500px) 100%, 20% bottom;
-    background-position: -moz-calc(100% + 500px) 100%, 20% bottom;
-    background-position: calc(100% + 500px) 100%, 20% bottom; }
+    background-position: -webkit-calc(100% + 280px) 100%, 20% bottom;
+    background-position: -moz-calc(100% + 280px) 100%, 20% bottom;
+    background-position: calc(100% + 280px) 100%, 20% bottom; }
     .learning-process .learning-wrapper {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1854,40 +1854,6 @@ a {
       width: 104px; }
     .learning-process_block-img {
       width: 80%; } }
-
-@media (min-width: 580px) {
-  .learning-process {
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -webkit-gradient(linear, left top, right top, from(#8095c3), color-stop(15%, #3959a2), color-stop(85%, #3959a2), to(#8095c3)) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -webkit-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -moz-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -o-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, linear-gradient(90deg, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    -webkit-background-size: auto 100%, auto 100%;
-    -moz-background-size: auto 100%, auto 100%;
-    -o-background-size: auto 100%, auto 100%;
-    background-size: auto 100%, auto 100%;
-    background-position: -webkit-calc(100% + 450px) 100%, 20% bottom;
-    background-position: -moz-calc(100% + 450px) 100%, 20% bottom;
-    background-position: calc(100% + 450px) 100%, 20% bottom; }
-    .learning-process_text-block-icons_icons {
-      width: 104px; }
-    .learning-process_block-img {
-      width: 80%; } }
-
-@media (min-width: 520px) {
-  .learning-process {
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -webkit-gradient(linear, left top, right top, from(#8095c3), color-stop(15%, #3959a2), color-stop(85%, #3959a2), to(#8095c3)) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -webkit-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -moz-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, -o-linear-gradient(left, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    background: url("../img/learning/learning_graph_element.png") no-repeat, linear-gradient(90deg, #8095c3 0%, #3959a2 15%, #3959a2 85%, #8095c3 100%) no-repeat;
-    -webkit-background-size: auto 100%, auto 100%;
-    -moz-background-size: auto 100%, auto 100%;
-    -o-background-size: auto 100%, auto 100%;
-    background-size: auto 100%, auto 100%;
-    background-position: -webkit-calc(100% + 500px) 100%, 20% bottom;
-    background-position: -moz-calc(100% + 500px) 100%, 20% bottom;
-    background-position: calc(100% + 500px) 100%, 20% bottom; } }
 
 @media (min-width: 980px) {
   .stages-wrapper {
@@ -2054,3 +2020,11 @@ a {
     width: -webkit-calc(100% / 2 - 10px);
     width: -moz-calc(100% / 2 - 10px);
     width: calc(100% / 2 - 10px); } }
+
+/* * */
+.txt-bold {
+  font-weight: bold !important;
+  color: black;
+}
+/* * */
+
